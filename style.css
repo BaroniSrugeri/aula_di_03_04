@@ -4,40 +4,61 @@
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #223030;
 }
 header{
-    background-color: #c0c0c0;
+    background-color: #223030;
     color: #ffff;
     text-align: center;
+    padding: 22px;
+}
+
+nav{
+    padding: 28px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: large;
+}
+li{
+    font-size: large;
 }
 nav a{
-    color: blue;
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 4px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #523D35;
 }
 .bloco{
-    background-color: #cccc;
-    color: black;
-    border: 1px dotted #a3a3;
+    background-color: #223030;
+    color: rgb(255, 255, 255);
+    border: 2px solid #BBA58F;
     border-radius: 0px;
     padding: 10px;
-    margin-bottom: 10px;
-    border-top: 2px solid #d8d;
     
 }
 #galeria{
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
-    justify-content: flex-start;
+    gap: 45px;
+    justify-content: center;
+    padding: 40px;
+}
+h2{
+    text-align: center;
     padding: 20px;
+    font-size: 30px;
 }
 .foto{
     background: #ffffff;
     padding: 12px 12px 20px 12px;
-    border: 1px solid #dddddd;
-    box-shadow: 0 4px 16px #000000;
+    border: 1px solid #ffffff;
+    box-shadow: 0 4px 16px #ffffff;
     width: 220px;
     text-align: center;
     border-radius: 4px;
@@ -47,4 +68,20 @@ nav a{
     height: 220px;
     object-fit: cover;
     display: block;
+}
+.foto:hover{
+    transform: scale(1.25) rotate(2deg);
+}
+.legenda{
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-style: oblique;
+    color: #000000;
+}
+footer{
+    color: white;
+    text-align: center;
+    font-size: large;
+    margin-top: 5%;
 }
